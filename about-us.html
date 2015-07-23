@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from themes.startbootstrap.com/North Hill Exteriors-v1.3.5/agency.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 01 Jul 2015 14:06:15 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>North Hill Exteriors</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Default Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/background.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/animate.css" rel="stylesheet" type="text/css">
+    
+    <link id="changeable-colors" rel="stylesheet" href="css/vitality-red.css">
+    <link href="demo/style-switcher.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script>
+$(document).ready(function(e) {
+  $('ul#nav li:first-child').remove();
+   var scrollTopHeight=100
+   $(window).scroll(function () {
+		if($(window).scrollTop()>scrollTopHeight ){
+			if(!$('#nav > li#headerLogoCon').length){
+				$('#nav').prepend('<li id="headerLogoCon"><a href="#"><img src="img/logo_new.png" alt="" /></a></li>')
+			}
+		}else{
+			 $('ul#nav #headerLogoCon').remove();
+			
+		}
+   });
+});
+</script>
+
+	<script type="text/javascript">
+    $(document).ready(function() {
+        $('.nav-toggle').click(function(){
+            //get collapse content selector
+            var collapse_content_selector = $(this).attr('href');					
+            
+            //make the collapse content to be shown or hide
+            var toggle_switch = $(this);
+            $(collapse_content_selector).toggle(function(){
+                if($(this).css('display')=='none'){
+                    toggle_switch.html('Find us <i class="fa fa-chevron-down"></i>');//change the button label to be 'Show'
+                }else{
+                    toggle_switch.html('Find us <i class="fa fa-chevron-up"></i>');//change the button label to be 'Hide'
+                }
+            });
+        });
+        
+    });	
+    </script>
+    
+</head>
+    
+</head>
+
+
+<body id="page-top">
+    <!-- Navigation -->
+    <div class="nav_main">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            		<a class="navbar-brand_respon page-scroll" href="#" id="logoCon">
+                        <img src="img/logo_new.png" class="img-responsive" alt="">
+                        </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav_left" id="bs-example-navbar-collapse-1">
+           		 
+                <ul class="nav navbar-nav navbar-right" id="nav">
+                    <li id="headerLogoCon"><a href="#"><img src="img/logo_new.png" alt=""></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about-us.html">About Us</a></li>
+                    <li><a href="#">Residential Painting</a></li>
+                    <li><a href="#">Commercal Painting</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    
+                </ul>
+                 
+            </div>
+            
+            <!-- /.navbar-collapse -->
+            <div class="right"><a class="active nav-toggle" href="#collapse1">Find us <i class="fa fa-chevron-down"></i></a>
+                     <ul id="collapse1" style="display:none">
+                    <li><a href="#"><i class="fa fa-phone"></i>&nbsp; Phone: (100) 286 335</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>&nbsp; Send to a Friend</a></li>
+                    <li><a href="#"><i class="fa fa-print"></i>&nbsp; Print This Page</a></li>
+                    <li><a href="#"><i class="fa fa-facebook-official"></i>&nbsp; Follow on Facebook</a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i>&nbsp; Follow on Twitter</a></li>
+                     </ul>
+            </div>
+        </div>
+        
+        <!-- /.container -->
+    </nav>
+    
+    			
+    
+    
+    </div>
+    <header>
+    
+                <section class="find_section">
+                <div class="container">
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/logo.png" class="img-responsive" alt="">
+                    </a>
+                    </div>
+                     <div class="col-md-8">
+                    <div class="phone_section">
+                    <dl>
+                    <dt><i class="fa fa-phone-square"></i> Today | 1234567890</dt>
+                    <dd><a href="#">Request estimate <i class="fa fa-arrow-circle-right"></i></a></dd>
+                    </dl>
+                    </div>
+                    
+                    </div>
+                 </div>
+                 </div>
+                 </div>
+                </section>
+    
+    	
+        
+        
+    </header>
+    
+    <section class="welcome_text">
+        <div class="container">
+            <div class="row content-row">
+                <div class="col-md-8 wow fadeIn" data-wow-delay=".2s">
+                    <div class="media-body">
+                             <h3>About Us</h3>
+                             <p> <img src="img/img03.jpg" class="img-responsive img_new" alt=""> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
+                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recly with desktop.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                             <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
+                             
+                                                          
+                            
+                        </div>
+                </div>
+                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
+                    <div class="media-body">
+                             
+                             <h3>Follow us on Facebook</h3>
+                                <div class="social">
+                                <a href="#" class="hover1"></a>
+                                <a href="#" class="hover2"></a>
+                                <a href="#" class="hover3"></a>
+                                </div>
+                             
+                             <div class="clearfix"></div>
+                             
+                             <h3>Our Service Area</h3>
+                             
+                             <ul class="list">
+                             <li><a href="#">The industry's standard</a></li>
+                             <li><a href="#">dummytext ever</a></li>
+                             <li><a href="#">since the an unknown</a></li>
+                             <li><a href="#">printer took a galley</a></li>
+                             <li><a href="#">type and scrambled it to</a></li>
+                             <li><a href="#">make a type specimen book</a></li>
+                             <li><a href="#">has survived not only</a></li>
+                             <li><a href="#">five centuries but also</a></li>
+                             <li><a href="#">the leap into electronic types</a></li>
+                             <li><a href="#">etting, remaining essen</a></li>
+                             <li><a href="#">tially unchanged</a></li>
+                             <li><a href="#">It was popularised</a></li>
+                             <li><a href="#">with the release of Letraset</a></li>
+                             <li><a href="#">sheets containing </a></li>
+                             </ul>
+                             
+                            <a href="#"> <img src="img/bbb_logo.png" class="img-responsive" alt=""></a>
+                            
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+   
+    <footer class="footer">
+        <div class="container text-center">
+            
+            
+            <div class="row copyright">
+                <div class="col-lg-12">
+                    <p class="small">Copyrights &copy; northhillexteriors.com. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Portfolio Modals -->
+    <!-- Example Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/portfolio/bg-1.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 bg_trans">
+                        
+                            <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="col-lg-12">
+                           
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Example Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/portfolio/bg-2.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 bg_trans">
+                            <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="col-lg-12">
+                           
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Example Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/portfolio/bg-3.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 bg_trans">
+                            <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="col-lg-12">
+                           
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Example Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('img/portfolio/bg-4.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 bg_trans">
+                            <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="col-lg-12">
+                           
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Style Switcher -->
+    <!-- Core Scripts -->
+    
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Plugin Scripts -->
+    <script src="js/plugins/jquery.easing.min.js"></script>
+    <script src="js/plugins/classie.js"></script>
+    <script src="js/plugins/cbpAnimatedHeader.js"></script>
+    <script src="js/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins/background/core.js"></script>
+    <script src="js/plugins/background/transition.js"></script>
+    <script src="js/plugins/background/background.js"></script>
+    <script src="js/plugins/jquery.mixitup.js"></script>
+    <script src="js/plugins/wow/wow.min.js"></script>
+    <script src="js/plugins/jqBootstrapValidation.js"></script>
+    <script src="js/vitality.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+	<script type="text/javascript">
+    $( "#showr" ).click(function() {
+    $( "div" ).first().show( "fast", function showNext() {
+    $( this ).next( "my_div" ).show( "fast", showNext );
+    });
+    });
+    $( "#hidr" ).click(function() {
+    $( "div" ).hide( 1000 );
+    });
+    </script>
+    
+
+
+</body>
+
+</html>
